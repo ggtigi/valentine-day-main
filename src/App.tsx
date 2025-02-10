@@ -70,13 +70,13 @@ function App() {
         <div className="main">
             {isValentine ? (
                 <>
-                    <h2 className="title"> Любимая, Сегодня наш с тобой день, Я рад что познакомился стобой и то что провожу с тобой каждый свой день, спасибо что появилась в моей жизни, я тебя очень сильно люблю. С праздником тебя! &hearts; </h2>
+                    <h2 className="title"> Любимая, Сегодня наш с тобой день, Я рад что смог познакомиться с тобой и то что провожу с тобой каждый свой день, спасибо что появилась в моей жизни, я тебя очень сильно люблю. С праздником тебя! &hearts; </h2>
                     <img alt="cat animation" src={catAnimation} />
                 </>
             ) : (
                 <>
-                    <h2 className="title">Will be my</h2>
-                    <h1 className="valentine">Valentine?</h1>
+                    <h2 className="title">Ты будешь моим</h2>
+                    <h1 className="valentine">Валинтином?</h1>
                     <button
                         style={stylesBtnAgree}
                         onClick={agree}
