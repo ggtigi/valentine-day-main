@@ -32,9 +32,9 @@ body {
     z-index: 1;
     font-style: italic;
     font-family: 'Playfair Display', serif;
-    font-size: 65px;
+    font-size: 55px;
     color: #c94040;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .btn-refusal,
