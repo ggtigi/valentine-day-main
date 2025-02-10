@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #c9404082;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    z-index: 1;
+    font-family: 'Montserrat', serif;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.valentine {
+    z-index: 1;
+    font-style: italic;
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    color: #c94040;
+    font-weight: 700;
+}
+
+.btn-refusal,
+.btn-agree {
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    font-size: 22px;
+}
+
+.btn-refusal {
+    z-index: 1;
+    padding: 5px 20px;
+    background-color: rgb(174, 0, 0);
+}
+
+.btn-agree {
+    transition: all 0.8s ease;
+    margin: 15px 0;
+    background-color: #239f23;
+}
+
+.last {
+    z-index: 100;
+    position: absolute;
+}
