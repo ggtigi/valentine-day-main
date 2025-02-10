@@ -85,7 +85,7 @@ function App() {
                             count === rejections.length ? 'last' : ''
                         }`}
                     >
-                        Да!!! {exclamation}
+                        Да {exclamation}
                     </button>
                     {count !== 6 && (
                         <button
